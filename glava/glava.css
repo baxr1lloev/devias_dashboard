@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+   font-family: 'Open Sans', sans-serif;
+}
+
+.a1 {
+   color: #0047FF;
+}
+
+
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+
+.wrapper {
+   width: fit-content;
+   height: fit-content;
+   margin: 100px auto;
+}
+
+.register {
+   font-size: 48px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 38px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.inp {
+   width: 438px;
+   height: 56px;
+   border-radius: 10px;
+   padding: 10px 20px;
+   border: 1px solid #c4c4c4;
+   outline: none;
+   margin-top: 10px;
+}
+
+.p1 {
+   color: #c4c4c4;
+   margin: 10px;
+   margin-top: -40px;
+}
+
+.pd{
+   margin-left: 60px;
+   margin-top: -40px;
+}
+
+.pd1{
+   text-decoration: none;
+   color: #0047FF;
+   margin-top: -30px;
+}
+
+.btn {
+   border: none;
+   border-radius: 8px;
+   background: #5048E5;
+   padding: 15px 20px;
+   cursor: pointer;
+   color: white;
+   font-size: 18px;
+   margin-bottom: 32px;
+   margin: 30px;
+   margin-left: -2px;
+   width: 438px;
+}
+
+.dont{
+   color: #6B7280;
+   margin-top: -15px;
+}
+
+.sup{
+   color: #5048E5;
+   margin-left: 187px;
+   font-weight: bold;
+}
+
+.up{
+   margin-top: -29px;
+}
+

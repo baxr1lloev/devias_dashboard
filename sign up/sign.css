@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.pd1{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0047FF;
+}
+
+.pd{
+    color: #5048E5;
+    margin-top: -39px;
+    margin-left: 60px;
+}
+
+.logF{
+    color: white;
+    font-weight: bold;
+    /* align-items: center; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.imgFace{
+    align-items: flex-start;
+    display: flex;
+    margin-top: -35px;
+    margin-left: -10px;
+    /* margin-top: -14px; */
+}
+
+.logGg{
+    color: white;
+    font-weight: bold;
+    margin-top: 16px;
+    display: flex;
+    font-size: 18px;
+    margin-left: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.imgGoogle{
+    align-items: flex-start;
+    display: flex;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+.but1{
+    background: #2196F3;
+    border-radius: 8px;
+    border: none;
+    width: 240px;
+    height: 56px;
+}
+
+.but2{
+    background: #D14343;
+    border-radius: 8px;
+    border: none;
+    width: 240px;
+    height: 56px;
+    margin-left: 16px;
+}
+
+.dont{
+    color: #6B7280;
+    margin-top: -10px;
+}
+
+.or{
+    color: #6B7280;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sup{
+    color: #6B7280;
+    margin-top: -30px;
+}
+
+.logA{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: fit-content;
+    height: fit-content;
+    margin: 100px auto;
+}
+
+.register {
+    font-size: 48px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 38px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inp {
+    width: 500px;
+    height: 56px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #5048E5;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.assign{
+    color: #5048E5;
+    margin-left: 187px;
+}
+
+.posl{
+    margin-top: -29px;
+}
+/* a {
+    color: #0047FF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+} */
